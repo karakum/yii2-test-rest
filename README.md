@@ -8,8 +8,8 @@ INSTALLATION
 1. Unpack project.
 2. Init environments by command `php init`.
 3. Configure DB: Edit the file `config/common-local.php` with real data
-4. Run migration: `php yii/migrate`
-5. Create user `php user/add-user admin admin@localhost.ru password`. See user's `access_token` in DB for next tests.
+4. Run migration: `php yii migrate`
+5. Create user `php yii user/add-user admin admin@localhost.ru password`. See user's `access_token` in DB for next tests.
 
 RESTful TESTING
 ---------------
